@@ -26,9 +26,6 @@ steps:
   inputs:
     verbose: false
 
-steps:
-- task: NuGetToolInstaller@1
-
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
